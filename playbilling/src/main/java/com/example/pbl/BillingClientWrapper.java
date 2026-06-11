@@ -103,6 +103,7 @@ class BillingClientWrapper {
 
                     @Override
                     public void onBillingServiceDisconnected() {
+                        // This is from kumann-dev repo
                         // Try to restart the connection on the next request to
                         // Google Play by calling the startConnection() method.
                         // This is automatically handled by the library when you call a method that requires a connection.
